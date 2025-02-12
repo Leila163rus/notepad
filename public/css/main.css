@@ -1,0 +1,111 @@
+.nav {
+  background-color: rgb(216, 207, 196);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav button:hover {
+  text-shadow: 0.5px 0.35px 0.5px rgb(86, 74, 57);
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  font-family: "Arial Black";
+  font-size: 120%;
+  white-space: nowrap; 
+  padding: 1%;
+  margin: 1%;
+}
+
+#search {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1.5%;
+}
+
+.search {
+  font-size: medium;
+  width: 260px;
+  padding: 0.7%;
+}
+
+#form {
+  display: none;
+}
+
+#post {
+  margin: 4% auto; 
+  width: 300px;
+}
+
+#form input {
+  display: block;
+  width: 300px;
+  margin-bottom: 3%;
+  padding: 3%;
+  font-family: "Arial Black";
+}
+
+#contact {
+  display: block;
+  margin: 2%;
+  height: 100vh;
+}
+
+#contact > div {
+  position: relative;
+  width: 40%;
+  left: 30%;
+  border: 1.5px solid rgb(86, 74, 57);
+  border-radius: 4%;
+  margin: 1%;
+  padding: 0.5%;
+  overflow: hidden;
+}
+
+.fio {
+  font-family: "Arial Black";
+  font-size: medium;
+  text-align: center;
+  white-space: nowrap;
+}
+
+img {
+  float: left;
+  max-width: 160px;
+  max-height: 95px;
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+
+.info {
+  display: none;
+}
+
+p.info {
+  font-size: medium;
+  margin: 0%;
+  padding: 0.8%;
+}
+
+#page {
+  position: relative;
+  left: 49%;
+  top: 4%;
+  font-size: medium;
+  border: 1.5px solid rgb(86, 74, 57);
+  margin: 0.3%;
+  padding: 0.5%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(216, 207, 196);
+}
